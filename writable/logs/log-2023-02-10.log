@@ -1,0 +1,150 @@
+ERROR - 2023-02-10 06:58:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 06:58:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 06:58:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 06:58:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 06:58:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 06:58:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 06:58:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 06:58:43 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 07:00:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 07:00:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 07:01:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 07:01:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 07:01:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 07:01:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 07:01:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 07:01:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 07:01:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-10 07:01:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(63): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-10 08:47:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+CRITICAL - 2023-02-10 08:47:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(66): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 09:18:36 --> Too few arguments to function App\Controllers\Main::__construct(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 906 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 09:19:26 --> Too few arguments to function App\Controllers\Main::__construct(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 906 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 09:19:46 --> Too few arguments to function App\Controllers\Main::__construct(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 906 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 09:19:48 --> Too few arguments to function App\Controllers\Main::__construct(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 906 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-10 09:20:39 --> Too few arguments to function App\Controllers\Main::__construct(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 906 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

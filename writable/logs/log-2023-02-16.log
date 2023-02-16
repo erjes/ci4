@@ -1,0 +1,250 @@
+CRITICAL - 2023-02-16 02:32:12 --> "App\Models\MainModel" model class does not have a valid dateFormat.
+in SYSTEMPATH\BaseModel.php on line 1300.
+ 1 SYSTEMPATH\BaseModel.php(1300): CodeIgniter\Exceptions\ModelException::forNoDateFormat('App\\Models\\MainModel')
+ 2 SYSTEMPATH\BaseModel.php(1267): CodeIgniter\BaseModel->intToDate(1676514731)
+ 3 SYSTEMPATH\BaseModel.php(766): CodeIgniter\BaseModel->setDate()
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:32:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:32:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:32:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:32:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:33:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:33:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:33:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:33:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:33:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:33:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:35:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:35:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:35:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:35:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:35:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:35:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:35:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:35:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:35:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:35:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 02:35:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-16 02:35:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(135): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 03:40:41 --> date_default_timezone_set(): Timezone ID 'UTC+07:00' is invalid
+in SYSTEMPATH\CodeIgniter.php on line 197.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_timezone_set(): Timezone ID \'UTC+07:00\' is invalid', 'SYSTEMPATH\\CodeIgniter.php', 197, [])
+ 2 SYSTEMPATH\CodeIgniter.php(197): date_default_timezone_set('UTC+07:00')
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-02-16 10:41:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type nvarchar is invalid for sum operator.
+CRITICAL - 2023-02-16 10:41:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type nvarchar is invalid for sum operator.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT SUM("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE requestOrderId =(SELECT "requestOrderId" FROM "KE_DB_IMS_UAT"."dbo"."RequestOrder" WHERE "requestOrderNumber" = (\'202208307BF00#OUT\'))', [], false)
+ 2 APPPATH\Controllers\Main.php(60): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 10:41:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type nvarchar is invalid for sum operator.
+CRITICAL - 2023-02-16 10:41:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type nvarchar is invalid for sum operator.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT SUM("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE requestOrderId =(SELECT "requestOrderId" FROM "KE_DB_IMS_UAT"."dbo"."RequestOrder" WHERE "requestOrderNumber" = (\'202208307BF00#OUT\'))', [], false)
+ 2 APPPATH\Controllers\Main.php(60): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 10:41:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type nvarchar is invalid for sum operator.
+CRITICAL - 2023-02-16 10:41:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type nvarchar is invalid for sum operator.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT SUM("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE requestOrderId =(SELECT "requestOrderId" FROM "KE_DB_IMS_UAT"."dbo"."RequestOrder" WHERE "requestOrderNumber" = (\'202208307BF00#OUT\'))', [], false)
+ 2 APPPATH\Controllers\Main.php(60): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 10:48:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+CRITICAL - 2023-02-16 10:48:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE requestOrderId =(SELECT "requestOrderId" FROM "KE_DB_IMS_UAT"."dbo"."RequestOrder" WHERE "requestOrderNumber" = (\'20220103CA170#OUT\'))', [], false)
+ 2 APPPATH\Controllers\Main.php(60): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 10:48:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+CRITICAL - 2023-02-16 10:48:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE requestOrderId =(SELECT "requestOrderId" FROM "KE_DB_IMS_UAT"."dbo"."RequestOrder" WHERE "requestOrderNumber" = (\'20220103CA170#OUT\'))', [], false)
+ 2 APPPATH\Controllers\Main.php(60): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-16 10:49:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+CRITICAL - 2023-02-16 10:49:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE requestOrderId =(SELECT "requestOrderId" FROM "KE_DB_IMS_UAT"."dbo"."RequestOrder" WHERE "requestOrderNumber" = (\'20220103CA170#OUT\'))', [], false)
+ 2 APPPATH\Controllers\Main.php(60): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 10:51:36 --> Array to string conversion
+in APPPATH\Controllers\Main.php on line 63.
+ 1 APPPATH\Controllers\Main.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Main.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 10:51:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-16 10:51:53 --> Array to string conversion
+in APPPATH\Controllers\Main.php on line 63.
+ 1 APPPATH\Controllers\Main.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Main.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 10:51:53 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

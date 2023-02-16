@@ -1,0 +1,156 @@
+ERROR - 2023-02-03 09:00:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:00:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("OutboundNumber","requestOrderId") VALUES (:OutboundNumber:, :requestOrderId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:01:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:01:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","requestOrderId") VALUES (:Id:, :OutboundNumber:, :requestOrderId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:02:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:02:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(55): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:03:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:03:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(55): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:08:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:08:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:08:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:08:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:08:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:08:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:08:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:08:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:36:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:36:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:36:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:36:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 09:37:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 09:37:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 10:15:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 10:15:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 10:18:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-03 10:18:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'Id', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("Id","OutboundNumber","barcode","requestOrderId","documentphoto") VALUES (:Id:, :OutboundNumber:, :barcode:, :requestOrderId:, :documentphoto:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(57): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

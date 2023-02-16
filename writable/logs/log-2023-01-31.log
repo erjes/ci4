@@ -1,0 +1,494 @@
+ERROR - 2023-01-31 07:17:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:17:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('01', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:17:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:17:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('01', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:21:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:21:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('01', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:21:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:21:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('01', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:21:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:21:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('01', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:21:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:21:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('01', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:30:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:30:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('01', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '01', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:30:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:30:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:41:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:41:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:48:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:48:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:48:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:48:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:50:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:50:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:52:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:52:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:52:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:52:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:52:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:52:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:52:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+CRITICAL - 2023-01-31 07:52:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.Menu'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM "KE_DB_IMS_UAT"."dbo"."Menu"
+WHERE "id" = :id:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('02', 'id', [...], null, 'id')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('id', 'Data Inventory', '02', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Menu.php(57): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:53:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (03).
+CRITICAL - 2023-01-31 07:53:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (03).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:53:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (03).
+CRITICAL - 2023-01-31 07:53:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (03).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:54:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (04).
+CRITICAL - 2023-01-31 07:54:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (04).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:55:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (04).
+CRITICAL - 2023-01-31 07:55:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (04).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 07:55:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (04).
+CRITICAL - 2023-01-31 07:55:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (04).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:03:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+CRITICAL - 2023-01-31 08:03:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:03:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+CRITICAL - 2023-01-31 08:03:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:03:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+CRITICAL - 2023-01-31 08:03:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:03:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+CRITICAL - 2023-01-31 08:03:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id") VALUES (:id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:04:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+CRITICAL - 2023-01-31 08:04:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","barcode") VALUES (:id:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:04:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+CRITICAL - 2023-01-31 08:04:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","barcode") VALUES (:id:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:04:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+CRITICAL - 2023-01-31 08:04:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'KE_DB_IMS_UAT.dbo.InventoryMain'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","barcode") VALUES (:id:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:05:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'barcode', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-31 08:05:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'barcode', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","barcode") VALUES (:id:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:05:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'barcode', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-31 08:05:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'barcode', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","barcode") VALUES (:id:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:05:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'barcode', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-01-31 08:05:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'barcode', table 'KE_DB_IMS_UAT.dbo.InventoryMain'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","barcode") VALUES (:id:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(77): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:11:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (08).
+CRITICAL - 2023-01-31 08:11:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (08).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","OutboundNumber","barcode") VALUES (:id:, :OutboundNumber:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(71): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:15:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (09
+).
+CRITICAL - 2023-01-31 08:15:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (09
+).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","OutboundNumber","barcode") VALUES (:id:, :OutboundNumber:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(71): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:45:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (10
+
+).
+CRITICAL - 2023-01-31 08:45:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (10
+
+).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","OutboundNumber","barcode") VALUES (:id:, :OutboundNumber:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(71): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 08:45:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (10
+
+).
+CRITICAL - 2023-01-31 08:45:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_InventoryMain'. Cannot insert duplicate key in object 'dbo.InventoryMain'. The duplicate key value is (10
+
+).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryMain" ("id","OutboundNumber","barcode") VALUES (:id:, :OutboundNumber:, :barcode:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Menu.php(71): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Menu->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

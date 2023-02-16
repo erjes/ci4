@@ -1,0 +1,12 @@
+ERROR - 2023-02-15 10:56:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'.
+CRITICAL - 2023-02-15 10:56:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryRemarks" ("documentimage","encodedimage","created_at","updated_at") VALUES (:documentimage:, :encodedimage:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Upload.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

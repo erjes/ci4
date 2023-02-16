@@ -1,0 +1,1584 @@
+ERROR - 2023-02-14 04:43:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'.
+CRITICAL - 2023-02-14 04:43:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(117): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 04:44:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'.
+CRITICAL - 2023-02-14 04:44:24 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status","created_at","updated_at") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(117): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 04:50:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-14 04:50:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(117): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 04:50:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-14 04:50:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(117): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:52:11 --> Array to string conversion
+in APPPATH\Controllers\Main.php on line 40.
+ 1 APPPATH\Controllers\Main.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Main.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:52:13 --> Array to string conversion
+in APPPATH\Controllers\Main.php on line 40.
+ 1 APPPATH\Controllers\Main.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Main.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:53:47 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:53:48 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Main.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:55:32 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\API\ResponseTrait.php(99): CodeIgniter\RESTful\ResourceController->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 4 APPPATH\Controllers\Main.php(39): CodeIgniter\RESTful\ResourceController->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:55:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:58:01 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\API\ResponseTrait.php(99): CodeIgniter\RESTful\ResourceController->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 4 APPPATH\Controllers\Main.php(40): CodeIgniter\RESTful\ResourceController->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:58:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:58:02 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\API\ResponseTrait.php(99): CodeIgniter\RESTful\ResourceController->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 4 APPPATH\Controllers\Main.php(40): CodeIgniter\RESTful\ResourceController->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:58:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:58:04 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\API\ResponseTrait.php(99): CodeIgniter\RESTful\ResourceController->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 4 APPPATH\Controllers\Main.php(40): CodeIgniter\RESTful\ResourceController->respond(Object(CodeIgniter\Database\SQLSRV\Result), 200)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:58:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:04:25 --> Call to undefined method App\Models\RequestOrderLineModel::getResultArray
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:04:52 --> Call to undefined method App\Models\RequestOrderLineModel::getResultArray
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:07:57 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:08:16 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:08:18 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:08:19 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:08:48 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:08:50 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:08:51 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:08:52 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:09:02 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 05:09:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-14 05:09:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(119): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:10:11 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:10:46 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:10:55 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:10:56 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:10:57 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:11:32 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(37): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:11:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:12:43 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(37): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:12:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:16:13 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(41): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:16:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:16:14 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(41): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:16:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:16:15 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(41): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:16:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:16:39 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(42): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:16:39 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:16:41 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(42): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:16:41 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:16:48 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(42): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:16:48 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:26:51 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:26:51 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:09:11 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:09:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:09:16 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:09:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:00 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:01 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:09 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:33 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:34 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:36 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:45 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:46 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:56 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:19:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:20:01 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(40): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:20:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-02-14 06:20:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-14 06:20:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(122): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:20:52 --> Object of class App\Models\RequestOrderModel could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 SYSTEMPATH\Model.php(839): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 APPPATH\Controllers\Main.php(41): CodeIgniter\Model->__call('get', [])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:26:50 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(324): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(250): CodeIgniter\HTTP\Response->formatBody(Object(CodeIgniter\Database\SQLSRV\Result), 'json')
+ 4 APPPATH\Controllers\Main.php(43): CodeIgniter\HTTP\Response->setJSON(Object(CodeIgniter\Database\SQLSRV\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:26:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:26:52 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(324): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(250): CodeIgniter\HTTP\Response->formatBody(Object(CodeIgniter\Database\SQLSRV\Result), 'json')
+ 4 APPPATH\Controllers\Main.php(43): CodeIgniter\HTTP\Response->setJSON(Object(CodeIgniter\Database\SQLSRV\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:26:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:41:17 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(324): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(250): CodeIgniter\HTTP\Response->formatBody(Object(CodeIgniter\Database\SQLSRV\Result), 'json')
+ 4 APPPATH\Controllers\Main.php(46): CodeIgniter\HTTP\Response->setJSON(Object(CodeIgniter\Database\SQLSRV\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:41:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:45:35 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(324): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(250): CodeIgniter\HTTP\Response->formatBody(Object(CodeIgniter\Database\SQLSRV\Result), 'json')
+ 4 APPPATH\Controllers\Main.php(46): CodeIgniter\HTTP\Response->setJSON(Object(CodeIgniter\Database\SQLSRV\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:45:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-02-14 06:50:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type nvarchar is invalid for sum operator.
+CRITICAL - 2023-02-14 06:50:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type nvarchar is invalid for sum operator.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT SUM("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE requestOrderId =(SELECT "requestOrderId" FROM "KE_DB_IMS_UAT"."dbo"."RequestOrder" WHERE "requestOrderNumber" = (NULL))', [], false)
+ 2 APPPATH\Controllers\Main.php(42): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:53:45 --> Failed to parse JSON string. Error: Type is not supported
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not supported')
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(324): CodeIgniter\Format\JSONFormatter->format(Object(CodeIgniter\Database\SQLSRV\Result))
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(250): CodeIgniter\HTTP\Response->formatBody(Object(CodeIgniter\Database\SQLSRV\Result), 'json')
+ 4 APPPATH\Controllers\Main.php(43): CodeIgniter\HTTP\Response->setJSON(Object(CodeIgniter\Database\SQLSRV\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:53:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Format\Exceptions\FormatException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 07:00:13 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Controllers\Main.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 07:00:45 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT COUNT("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT COUNT("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 APPPATH\Controllers\Main.php(43): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 07:00:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 07:00:46 --> Object of class CodeIgniter\Database\SQLSRV\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT COUNT("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT COUNT("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 6 APPPATH\Controllers\Main.php(43): CodeIgniter\Database\SQLSRV\Builder->get()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 07:00:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-02-14 07:02:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'.
+CRITICAL - 2023-02-14 07:02:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT COUNT("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 2 APPPATH\Controllers\Main.php(43): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 07:13:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'.
+CRITICAL - 2023-02-14 07:13:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT COUNT("barcode") AS "barcode"
+FROM "KE_DB_IMS_UAT"."dbo"."RequestOrderLine"
+WHERE "requestOrderId" = :requestOrderId:', [...], false)
+ 2 APPPATH\Controllers\Main.php(43): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 07:23:37 --> Call to a member function get() on null
+in APPPATH\Controllers\Main.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:01:53 --> Undefined variable: data
+in APPPATH\Controllers\Main.php on line 43.
+ 1 APPPATH\Controllers\Main.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Controllers\\Main.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:02:05 --> Undefined variable: ronumber
+in APPPATH\Controllers\Main.php on line 43.
+ 1 APPPATH\Controllers\Main.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ronumber', 'APPPATH\\Controllers\\Main.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:02:07 --> Undefined variable: ronumber
+in APPPATH\Controllers\Main.php on line 43.
+ 1 APPPATH\Controllers\Main.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ronumber', 'APPPATH\\Controllers\\Main.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:02:08 --> Undefined variable: ronumber
+in APPPATH\Controllers\Main.php on line 43.
+ 1 APPPATH\Controllers\Main.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ronumber', 'APPPATH\\Controllers\\Main.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:03:19 --> Undefined variable: ronumber
+in APPPATH\Controllers\Main.php on line 43.
+ 1 APPPATH\Controllers\Main.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ronumber', 'APPPATH\\Controllers\\Main.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:03:20 --> Undefined variable: ronumber
+in APPPATH\Controllers\Main.php on line 43.
+ 1 APPPATH\Controllers\Main.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ronumber', 'APPPATH\\Controllers\\Main.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 08:04:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+CRITICAL - 2023-02-14 08:04:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'InventoryAPKId', table 'KE_DB_IMS_UAT.dbo.InventoryAndroid'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO "KE_DB_IMS_UAT"."dbo"."InventoryAndroid" ("InventoryAPKId","requestOrderNumber","requestOrderId","latitude","longitude","status") VALUES (:InventoryAPKId:, :requestOrderNumber:, :requestOrderId:, :latitude:, :longitude:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Main.php(127): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:13:17 --> syntax error, unexpected 'public' (T_PUBLIC)
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Main')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:13:35 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 49.
+ 1 APPPATH\Controllers\Main.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:13:37 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 49.
+ 1 APPPATH\Controllers\Main.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:13:39 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 49.
+ 1 APPPATH\Controllers\Main.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:15:39 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:16:57 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:19:16 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:19:18 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:21:36 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:21:37 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:21:38 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:21:38 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:24:23 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:24:25 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:24:26 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:25:17 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:25:18 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:25:19 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:25:20 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:25:39 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:47:19 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 50.
+ 1 APPPATH\Controllers\Main.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:47:22 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 50.
+ 1 APPPATH\Controllers\Main.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:47:23 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 50.
+ 1 APPPATH\Controllers\Main.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:47:43 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 50.
+ 1 APPPATH\Controllers\Main.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:47:44 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 50.
+ 1 APPPATH\Controllers\Main.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:48:07 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:48:08 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 08:48:09 --> Undefined index: requestOrderNumber
+in APPPATH\Controllers\Main.php on line 55.
+ 1 APPPATH\Controllers\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: requestOrderNumber', 'APPPATH\\Controllers\\Main.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

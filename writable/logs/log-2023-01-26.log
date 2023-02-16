@@ -1,0 +1,1370 @@
+CRITICAL - 2023-01-26 06:43:48 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 06:43:48 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\Jamilah\Desktop\things\ci4\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Users\Jamilah\Desktop\things\ci4\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\Jamilah\Desktop\things\ci4\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\Jamilah\Desktop\things\ci4\system\Autoloader\Autoloader.php(312): include_once('C:\\Users\\Jamila...')
+#3 C:\Users\Jamilah\Desktop\things\ci4\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Jamila...')
+#4 C:\Users\Jamilah\Desktop\things\ci4\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\Jamilah\Desktop\things\ci4\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\Jamilah\Desktop\things\ci4\app\Views\errors\cli\production.php(5): include('C:\\Users\\Jamila...')
+#7 C:\Users\Jamilah\Desktop\things\ci4\system\Debug\Exceptions.php(266): include('C:\\Users\\Jamila...')
+#8 C:\Users\Jamilah\Desktop\things\ci4\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\Users\Jamilah\Desktop\things\ci4\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 06:45:00 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 06:45:00 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\Jamilah\Desktop\things\ci4\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Users\Jamilah\Desktop\things\ci4\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\Jamilah\Desktop\things\ci4\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\Jamilah\Desktop\things\ci4\system\Autoloader\Autoloader.php(312): include_once('C:\\Users\\Jamila...')
+#3 C:\Users\Jamilah\Desktop\things\ci4\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Jamila...')
+#4 C:\Users\Jamilah\Desktop\things\ci4\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\Jamilah\Desktop\things\ci4\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\Jamilah\Desktop\things\ci4\app\Views\errors\cli\production.php(5): include('C:\\Users\\Jamila...')
+#7 C:\Users\Jamilah\Desktop\things\ci4\system\Debug\Exceptions.php(266): include('C:\\Users\\Jamila...')
+#8 C:\Users\Jamilah\Desktop\things\ci4\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\Users\Jamilah\Desktop\things\ci4\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-01-26 07:18:49 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\Jamilah\Desktop\things\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Jamilah\Desktop\things\ci4\app\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM R...')
+#3 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(213): include('C:\\Users\\Jamila...')
+#4 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Jamilah\Desktop\things\ci4\system\Common.php(1177): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 C:\Users\Jamilah\Desktop\things\ci4\app\Controllers\Home.php(9): view('welcome_message')
+#7 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Jamilah\Desktop\things\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Jamilah\Desktop\things\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Jamila...')
+#12 {main}
+CRITICAL - 2023-01-26 07:18:49 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM RequestOrderLine')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('welcome_message', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-26 07:19:13 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\Jamilah\Desktop\things\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Jamilah\Desktop\things\ci4\app\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM R...')
+#3 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(213): include('C:\\Users\\Jamila...')
+#4 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Jamilah\Desktop\things\ci4\system\Common.php(1177): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 C:\Users\Jamilah\Desktop\things\ci4\app\Controllers\Home.php(9): view('welcome_message')
+#7 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Jamilah\Desktop\things\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Jamilah\Desktop\things\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Jamila...')
+#12 {main}
+CRITICAL - 2023-01-26 07:19:13 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM RequestOrderLine')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('welcome_message', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-26 07:20:39 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\Jamilah\Desktop\things\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Jamilah\Desktop\things\ci4\app\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM R...')
+#3 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(213): include('C:\\Users\\Jamila...')
+#4 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Jamilah\Desktop\things\ci4\system\Common.php(1177): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 C:\Users\Jamilah\Desktop\things\ci4\app\Controllers\Home.php(9): view('welcome_message')
+#7 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Jamilah\Desktop\things\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Jamilah\Desktop\things\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Jamila...')
+#12 {main}
+CRITICAL - 2023-01-26 07:20:39 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM RequestOrderLine')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('welcome_message', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-26 07:22:39 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\Jamilah\Desktop\things\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Jamilah\Desktop\things\ci4\app\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(213): include('C:\\Users\\Jamila...')
+#4 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Jamilah\Desktop\things\ci4\system\Common.php(1177): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 C:\Users\Jamilah\Desktop\things\ci4\app\Controllers\Home.php(9): view('welcome_message')
+#7 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Jamilah\Desktop\things\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Jamilah\Desktop\things\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Jamila...')
+#12 {main}
+CRITICAL - 2023-01-26 07:22:39 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM percobaan')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('welcome_message', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-26 07:23:00 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\Users\Jamilah\Desktop\things\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\Jamilah\Desktop\things\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Jamilah\Desktop\things\ci4\app\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(213): include('C:\\Users\\Jamila...')
+#4 C:\Users\Jamilah\Desktop\things\ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\Jamilah\Desktop\things\ci4\system\Common.php(1177): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 C:\Users\Jamilah\Desktop\things\ci4\app\Controllers\Home.php(9): view('welcome_message')
+#7 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\Jamilah\Desktop\things\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Jamilah\Desktop\things\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Jamilah\Desktop\things\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Jamila...')
+#12 {main}
+CRITICAL - 2023-01-26 07:23:00 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\welcome_message.php(231): CodeIgniter\Database\BaseConnection->query('SELECT * FROM percobaan')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\welcome_message.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('welcome_message', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:15:44 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:15:46 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:16:22 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:16:23 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:16:29 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:16:31 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:16:36 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:16:37 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 08:16:38 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 09:21:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:21:30 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:21:30 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:23:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:23:02 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:23:04 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:23:04 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:23:05 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:23:05 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:23:09 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:23:09 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:23:12 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:23:12 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:23:45 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:23:45 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:23:46 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:23:46 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:23:48 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:23:48 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:24:46 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:25:07 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:30:39 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:30:39 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:30:40 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:30:40 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:30:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:30:42 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:32:08 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:32:55 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:32:55 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:32:56 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:32:56 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:33:03 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:33:03 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:33:04 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:33:04 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:33:29 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:33:29 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:33:56 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:33:56 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:33:58 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:33:58 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:33:58 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:33:58 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:33:59 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:33:59 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:33:59 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:33:59 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:34:00 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:34:00 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:34:08 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:34:08 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:34:09 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:34:09 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:34:10 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:34:10 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:36:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:36:46 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:37:37 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:37:37 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:56:05 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-26 09:56:05 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\ci4\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(141): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#5 {main}
+  thrown
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 09:02:19 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:02:53 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:05:19 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:10:59 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:11:25 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:12:33 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:18:05 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:18:51 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:19:23 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:20:45 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:21:18 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:25:12 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:25:14 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:25:15 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:28:21 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:28:24 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:10 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:11 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:11 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:12 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:19 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:20 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:20 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:21 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:21 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:33:21 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:34:37 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:34:37 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:34:38 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:35:49 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:39:27 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:39:29 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:39:30 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:45:00 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:45:01 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 09:48:24 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 10:00:17 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 10:43:55 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 10:52:45 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 10:53:01 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 10:53:18 --> Class "app\Models\Modellogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 11:00:19 --> Class "app\Models\Modelforlogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 11:11:03 --> Class "app\Models\Modelforlogin" not found
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 15:54:03 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 15:54:03 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:01:31 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:01:31 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:02:13 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:02:13 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:02:36 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:02:36 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:07:16 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:07:16 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:07:26 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:07:26 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:11:23 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:11:23 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:11:41 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:11:41 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:15:25 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:15:25 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:20:43 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:20:43 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-26 16:21:34 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ci4\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ci4\system\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ci4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-26 16:21:34 --> Unable to connect to the database.
+Main connection [sqlsrv]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "KE_DB_IMS_UAT"."dbo"."InventoryLogin"', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
